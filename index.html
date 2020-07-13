@@ -7,9 +7,52 @@
     <title>Wallet-tracker</title>
 </head>
 <body>
-    <h1>Wallet-tracker</h1>
-    
+  
+  
 
+  <div class="Container">
+        <div class="SignInFormArea">
+          <h1>Sign In</h1>
+          <form class="SignInForm"> 
+           <input  class="SignInEmail" type="text" placeholder="Entre email">
+           <input  class="SignInPass" type="text" placeholder="Entre password"> 
+           <button type="submit" >Submit</button>
+           <button class="SignInGoogle" type="button" >Sign In With Google</button>
+          </form>
+        </div> 
+        <div class="SignInFormArea">
+          <h1>Sign Up</h1>
+          <form class="SignUpForm"> 
+           <input class="SignUpName" type="text" placeholder="Entre FullName">
+           <input class="SignUpEmail" type="text" placeholder="Entre email">
+           <input class="SignUpPass" type="text" placeholder="Entre password"> 
+           <button type="submit" >Submit</button>
+          </form>
+        </div> 
+  </div>
+
+
+    
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+
+<script  src="https://www.gstatic.com/firebasejs/7.14.0/firebase-auth.js"></script>
+<script  src="https://www.gstatic.com/firebasejs/7.14.0/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAPbHwgwOS1OTesbew_eU6V_blLbLdSH-c",
+    authDomain: "wallet-tracker-d23b5.firebaseapp.com",
+    databaseURL: "https://wallet-tracker-d23b5.firebaseio.com",
+    projectId: "wallet-tracker-d23b5",
+    storageBucket: "wallet-tracker-d23b5.appspot.com",
+    messagingSenderId: "833524740905",
+    appId: "1:833524740905:web:aa3190bbe614a008ca7d38"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 <script src="./js/index.js"></script>
 </body>
 </html>

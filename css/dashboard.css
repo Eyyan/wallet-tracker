@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 10vh 15vh minmax(75vh,min-content);
+}
+
+.navbar{
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+
+}
+
+.logo h1 {
+    padding: 0px 20px;
+}
+
+.name h2{
+    padding: 0px 20px;
+}
+
+.transactionForm{
+    background-color: lightpink;
+}
+
+.transactionList{
+    background-color: lightseagreen;
+}
+
+.transactionListItem{
+    display: grid;
+    grid-template-columns: min-content min-content 1fr max-content min-content;
+    column-gap: 20px;
+}
+
+.ListItem{
+    padding: 20px;
+}

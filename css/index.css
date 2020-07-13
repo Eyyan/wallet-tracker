@@ -3,3 +3,44 @@
     padding: 0;
     border: none;
 }
+
+
+.Container {
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100vh;
+    width: 100vw;
+}
+
+.SignInFormArea{
+
+    background-color: aquamarine;
+
+}
+
+.SignInForm input{
+
+    border-radius: 15px;
+    font-size: 20px;
+    
+}
+
+
+.SignUpFormArea{
+
+    background-color: burlywood;
+}
+
+.SignUpForm input{
+
+    border-radius: 15px;
+    font-size: 20px;
+    
+}
+
+.SignInGoogle{
+
+    background-color: lightcoral;
+    
+}
